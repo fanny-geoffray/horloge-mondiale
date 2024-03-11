@@ -1,15 +1,28 @@
 body {
     text-align: center;
-    background-color: #D2B48C;
     font-family: "Roboto", sans-serif;
+    color: beige;
     font-weight: 500;
     font-style: normal;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
+/* BARRE DE RECHERCHE */
 .search {
     padding: 20px;
 }
 
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+/*BLOC VILLE*/
 .city-container {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +38,14 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: calc(25% - 20px);
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.city-card:hover {
+    transform: scale(1.02);
 }
 
 .city-card img {
@@ -32,4 +53,5 @@ body {
     height: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
