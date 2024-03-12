@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const now = new Date();
 
         cityCards.forEach(card => {
-            const cityName = card.getAttribute('data-city');
+            //const cityName = card.getAttribute('data-city');
             const timezone = card.getAttribute('data-timezone');
 
             const options = { timeZone: timezone, hour: 'numeric', minute: 'numeric', second: 'numeric' };
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const timeElement = card.querySelector('.current-time');
             if (timeElement) {
-                timeElement.textContent = `Heure actuelle : ${formattedTime}`;
+                timeElement.textContent = `Heure locale : ${formattedTime}`;
             }
         });
     }
@@ -24,6 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Mettre à jour l'horloge chaque seconde
     setInterval(updateClock, 1000);
 });
+
+
 
 
 
