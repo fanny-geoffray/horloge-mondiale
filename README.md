@@ -1,12 +1,11 @@
 # Projet Horloge Mondiale
 
-Horloge mondiale interactive permettant aux utilisateurs de connaître l'heure actuelle dans différentes villes du monde. Le projet vise à offrir une expérience conviviale et simple pour ceux qui souhaitent suivre le temps dans divers fuseaux horaires.
+Horloge mondiale interactive permettant aux utilisateurs de connaître l'heure actuelle dans différentes villes du monde. Le projet vise à offrir une expérience agréable et simple pour ceux qui souhaitent suivre le temps dans divers fuseaux horaires.
 
-## Fonctionnalités Clés
+## Fonctionnalités
 - Sélection facile des villes pour afficher leur heure actuelle.
-- Interface intuitive avec des informations claires sur le fuseau horaire, la date et l'heure.
 - Recherche de villes pour un accès rapide.
-- Vue d'ensemble simple et moderne pour une expérience utilisateur agréable.
+- Vue d'ensemble simple.
 
 ## Technologies Utilisées
 - HTML, CSS pour la structure et la présentation
@@ -15,6 +14,3 @@ Horloge mondiale interactive permettant aux utilisateurs de connaître l'heure a
 
 ## Statut du Projet
 En cours de développement. Les contributions sont les bienvenues !
-
-## Public Cible
-Parfait pour les personnes qui veulent garder un œil sur l'heure dans différentes parties du monde, que ce soit pour des réunions en visio, des voyages ou simplement par curiosité.
