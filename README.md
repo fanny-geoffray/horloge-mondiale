@@ -14,7 +14,7 @@ Horloge mondiale interactive permettant aux utilisateurs de connaître l'heure a
 - Utilisation d'une API de temps pour obtenir les informations sur les heures mondiales
 
 ## Statut du Projet
-En développement actif. Les contributions sont les bienvenues !
+En cours de développement. Les contributions sont les bienvenues !
 
 ## Public Cible
 Parfait pour les personnes qui veulent garder un œil sur l'heure dans différentes parties du monde, que ce soit pour des réunions en visio, des voyages ou simplement par curiosité.
