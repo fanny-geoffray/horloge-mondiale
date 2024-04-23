@@ -1,13 +1,10 @@
 body {
+    background-color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    color: beige;
+    color: white;
     font-weight: 500;
     font-style: normal;
-    background-image: url('/images/background.jpg');
-    background-size: cover;
-    background-position: center;
-
 }
 
 /* BARRE DE RECHERCHE */
